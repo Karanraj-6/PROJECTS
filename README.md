@@ -4,7 +4,7 @@ Welcome to my collection of projects! Below is a list of the various projects I 
 
 ---
 
-## Movie Recommendation System
+## 1.Movie Recommendation System
 
 ### Project Overview
 This project is a **Movie Recommendation System** that suggests movies based on user input and historical data of user preferences. The system aims to provide users with personalized movie recommendations by leveraging advanced techniques such as machine learning, natural language processing (NLP), and APIs from **TMDb (The Movie Database)** and **YouTube**.
@@ -92,7 +92,7 @@ This Movie Recommendation System provides a user-friendly platform for personali
 
 ---
 
-## Customer Churn Prediction System
+## 2.Customer Churn Prediction System
 
 ### Project Overview
 The **Customer Churn Prediction System** is designed to predict whether a customer will leave a service provider (churn) based on historical data and real-time user inputs. This system enables businesses to make data-driven decisions by identifying customers at risk of churning, allowing them to take proactive steps to retain them.
@@ -202,23 +202,8 @@ The dataset used in this project is the **IBM Telco Customer Churn** dataset, co
 ### Conclusion
 
 The **Customer Churn Prediction System** offers a reliable solution for predicting customer churn and storing real-time data into a database. With its user-friendly interface, robust prediction capabilities, and data storage features, it provides businesses with the tools they need to identify and retain at-risk customers effectively.
-
-## 3. **Fake News Detection System**
-
-**Description**: A robust system for detecting fake news, built using a dataset of 8,000 news articles. Achieved perfect accuracy (1.00), precision, recall, and F1-score through extensive hyperparameter tuning of the Gradient Boosting Classifier.
-
-**Technologies**: Python, Gradient Boosting Classifier, Machine Learning.
-
-**Features**:
-- High-accuracy fake news detection.
-- Well-tuned model for real-world application.
-- Easy-to-use web interface.
-
-<a href="https://github.com/Karanraj-6/Fake-News-Detection">View Project</a>
-
 ---
-
-## Fake News Detection System
+## 3.Fake News Detection System
 
 ### Project Overview
 The **Fake News Detection System** is designed to classify news articles as either **real** or **fake** based on their content. This system leverages machine learning and natural language processing (NLP) techniques to analyze text data and determine its authenticity. It is particularly useful in identifying misinformation and combating the spread of fake news on digital platforms.
@@ -309,7 +294,7 @@ The **Fake News Detection System** provides a highly accurate solution for ident
 
 ---
 
-## YouTube AdView Prediction System
+## 5. YouTube AdView Prediction System
 
 ### Project Overview
 The **YouTube AdView Prediction System** aims to predict the number of ad views a YouTube video is likely to generate. This project utilizes machine learning techniques to help content creators, marketers, and advertisers estimate potential ad revenues based on various video attributes.
@@ -369,7 +354,7 @@ The **YouTube AdView Prediction System** serves as a valuable tool for understan
 
 ---
 
-## Facial Expression Recognition System
+## 6. Facial Expression Recognition System
 
 ### Project Overview
 The **Facial Expression Recognition System** is designed to detect and interpret human emotions based on facial expressions using advanced machine learning techniques. This project aims to classify emotions such as happiness, sadness, anger, surprise, disgust, and fear by analyzing facial images.
@@ -419,7 +404,7 @@ The **Facial Expression Recognition System** demonstrates the potential of machi
 
 ---
 
-## Handwritten Equation Solver
+## 7. Handwritten Equation Solver
 
 ### Project Overview
 The **Handwritten Equation Solver** is designed to recognize and solve handwritten mathematical equations using advanced deep learning techniques. This project focuses on transforming images of handwritten equations into machine-readable formats, enabling automated solving and interpretation of mathematical expressions.
@@ -469,7 +454,7 @@ The **Handwritten Equation Solver** showcases the potential of deep learning in 
 
 ---
 
-## Stock Price Prediction
+## 8. Stock Price Prediction
 
 ### Project Overview
 The **Stock Price Prediction** project utilizes advanced machine learning techniques to forecast future stock prices based on historical data. By analyzing patterns in stock market trends, the model provides insights that can aid investors in making informed decisions. 
@@ -517,7 +502,7 @@ The **Stock Price Prediction** project demonstrates the application of deep lear
 
 ---
 
-## Next Word Predictor
+## 9. Next Word Predictor
 
 ### Project Overview
 The **Next Word Predictor** project is designed to predict the next word in a sequence of text using advanced natural language processing (NLP) techniques. This project leverages deep learning to understand language context and improve the accuracy of word predictions, making it applicable for various NLP tasks, including text completion and conversational AI.
@@ -559,8 +544,8 @@ Before training the model, several preprocessing steps were performed:
 
 ### Conclusion
 The **Next Word Predictor** project illustrates the potential of deep learning in advancing natural language processing capabilities. By predicting the next word in a sequence, this project contributes to the development of more intelligent and context-aware language models. Future work may involve expanding the dataset, fine-tuning the model for improved accuracy, and exploring additional NLP applications.
-
-## Cats vs. Dogs Classifier
+---
+## 10. Cats vs. Dogs Classifier
 
 ### Project Overview
 
@@ -603,9 +588,11 @@ Before training the model, several preprocessing steps were performed:
 
 The **Cats vs. Dogs Classifier** project showcases the power of deep learning in image recognition. By effectively distinguishing between cat and dog images, this project serves as a practical application of convolutional neural networks. Future work may involve expanding the dataset, improving model architecture, and exploring additional image classification tasks.
 
+---
+
 
 
 
 **Contact Me**:  
-Email: karan@example.com  
+Email: karanraj3056@gmail.com  
 GitHub: [Karan's GitHub](https://github.com/Karanraj-6)
