@@ -4,7 +4,7 @@ Welcome to my collection of projects! Below is a list of the various projects I 
 
 ---
 
-## 1.Movie Recommendation System
+## 1. Movie Recommendation System
 
 ### Project Overview
 This project is a **Movie Recommendation System** that suggests movies based on user input and historical data of user preferences. The system aims to provide users with personalized movie recommendations by leveraging advanced techniques such as machine learning, natural language processing (NLP), and APIs from **TMDb (The Movie Database)** and **YouTube**.
@@ -201,7 +201,7 @@ The dataset used in this project is the **IBM Telco Customer Churn** dataset, co
 
 ### Conclusion
 
-The **Customer Churn Prediction System** offers a reliable solution for predicting customer churn and storing real-time data into a database. With its user-friendly interface, robust prediction capabilities, and data storage features, it provides businesses with the tools they need to identify and retain at-risk customers effectively.
+ - The **Customer Churn Prediction System** offers a reliable solution for predicting customer churn and storing real-time data into a database. With its user-friendly interface, robust prediction capabilities, and data storage features, it provides businesses with the tools they need to identify and retain at-risk customers effectively.
 ---
 ## 3.Fake News Detection System
 
@@ -288,7 +288,7 @@ The articles come from a diverse range of sources and topics, ensuring that the 
 
 This level of performance demonstrates that the system is highly effective in detecting fake news, with minimal false positives and no false negatives.
 
-## Conclusion
+### Conclusion
 
 The **Fake News Detection System** provides a highly accurate solution for identifying fake news articles. With its real-time prediction capabilities, robust NLP processing, and easy-to-use web interface, the system is a valuable tool for combating misinformation in today's digital age.
 
