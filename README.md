@@ -543,7 +543,7 @@ Before training the model, several preprocessing steps were performed:
    - Evaluated against various benchmarks to ensure effectiveness in predicting the next word.
 
 ### Conclusion
-The **Next Word Predictor** project illustrates the potential of deep learning in advancing natural language processing capabilities. By predicting the next word in a sequence, this project contributes to the development of more intelligent and context-aware language models. Future work may involve expanding the dataset, fine-tuning the model for improved accuracy, and exploring additional NLP applications.
+ - The **Next Word Predictor** project illustrates the potential of deep learning in advancing natural language processing capabilities. By predicting the next word in a sequence, this project contributes to the development of more intelligent and context-aware language models. Future work may involve expanding the dataset, fine-tuning the model for improved accuracy, and exploring additional NLP applications.
 ---
 ## 10. Cats vs. Dogs Classifier
 
@@ -590,7 +590,429 @@ The **Cats vs. Dogs Classifier** project showcases the power of deep learning in
 
 ---
 
+## 11. Sentiment Analysis System
 
+### Project Overview
+The **Sentiment Analysis System** is designed to classify the sentiment of text data, particularly focusing on movie reviews from the **IMDb dataset**. Using **BERT (Bidirectional Encoder Representations from Transformers)** and **PyTorch**, this system can accurately categorize reviews as positive, negative, or neutral based on the context and meaning of the text.
+
+By fine-tuning the BERT model on the IMDb dataset, which includes a large variety of user-generated reviews, the system is optimized for analyzing sentiment in the entertainment domain. This approach can be applied to other industries for customer feedback analysis, market research, or social media monitoring.
+
+Additionally, a **Streamlit** web application was developed to provide a user-friendly interface for real-time sentiment analysis, allowing users to input text and receive sentiment predictions instantly.
+
+### Key Achievements:
+- **High-Accuracy Sentiment Analysis**: Achieved superior accuracy in classifying IMDb movie reviews by leveraging BERT's context-aware capabilities.
+- **Custom Model Training**: Fine-tuned BERT on the IMDb dataset using PyTorch to achieve robust sentiment prediction for movie reviews.
+- **Interactive Web Application**: Deployed the model via a **Streamlit** app, enabling real-time sentiment prediction with an intuitive user interface.
+
+### Technologies Used
+- **Natural Language Processing (NLP)**:
+  - **BERT** for state-of-the-art text understanding and sentiment classification.
+
+- **Machine Learning Framework**:
+  - **PyTorch** for training and fine-tuning the BERT model.
+
+- **Web Application**:
+  - **Streamlit** for building and deploying the web application.
+
+- **Python Libraries**:
+  - **Transformers** (Hugging Face) for BERT model integration.
+  - **PyTorch** for model implementation, training, and optimization.
+  - **Streamlit** for building the user interface and serving the app.
+
+### Dataset Overview
+The model was trained on the **IMDb movie reviews dataset**, which consists of thousands of movie reviews, each labeled as either positive or negative. The dataset provides rich text data, making it ideal for training a sentiment analysis model that can generalize well to real-world reviews.
+
+- **Text Inputs**: Movie reviews written by IMDb users.
+- **Labels**: Each review is labeled as positive or negative sentiment.
+
+### Data Preprocessing
+- **Tokenization**: The IMDb reviews were tokenized using BERT’s tokenizer, converting text into tokens compatible with the model.
+- **Padding and Truncation**: To ensure uniform input size, sequences were padded to a fixed length, and longer reviews were truncated.
+- **Train-Test Split**: The dataset was split into training and test sets for model evaluation.
+
+### Key Features
+1. **BERT-Based Sentiment Analysis**:
+   - Utilizes BERT's ability to capture context in both directions of a sentence, ensuring high accuracy in understanding and classifying sentiment in IMDb reviews.
+
+2. **Custom Fine-Tuning**:
+   - The BERT model was fine-tuned on the IMDb dataset using PyTorch, optimizing it for movie review sentiment classification.
+
+3. **Interactive Streamlit App**:
+   - A Streamlit app allows users to input text and receive real-time sentiment predictions, providing an accessible interface for non-technical users.
+
+4. **Model Performance**:
+   - The model was evaluated using accuracy, precision, recall, and F1-score, demonstrating strong performance in predicting sentiment.
+
+5. **Real-Time Sentiment Prediction**:
+   - The trained model is capable of providing real-time sentiment analysis, making it suitable for integration into web applications or customer feedback systems.
+
+### Conclusion
+The **Sentiment Analysis System** fine-tuned on the IMDb dataset showcases the effectiveness of using BERT with PyTorch for sentiment classification. The integration with Streamlit further enhances the project by offering a real-time, user-friendly interface. This project highlights the potential of deep learning models in accurately understanding and interpreting sentiment in large, real-world datasets. Future improvements could include extending the model to support more granular sentiment categories or adapting it for multilingual sentiment analysis.
+
+---
+
+## 12. Music Recommendation System
+
+### Project Overview
+The **Music Recommendation System** is designed to suggest songs based on a user’s listening habits and preferences. This system employs a **Random Forest** machine learning model to analyze user interactions with music and provide personalized recommendations. 
+
+The recommendation engine works by analyzing user behavior, including listening history, song features, and user-specific metadata. The model identifies patterns and predicts songs that match the user's preferences, creating a customized playlist experience.
+
+### Key Achievements:
+- **Accurate Music Recommendations**: The system delivers personalized song suggestions based on user behavior and listening history.
+- **Random Forest Model**: The use of a Random Forest algorithm helps improve the precision of recommendations by analyzing multiple features of user preferences.
+
+## Technologies Used
+- **Machine Learning**:
+  - **Random Forest Algorithm**: The model was built using the Random Forest technique, which improves prediction accuracy by considering multiple decision trees.
+  
+- **Python Libraries**:
+  - **Pandas** for data manipulation.
+  - **Scikit-learn** for building and training the Random Forest model.
+
+### Dataset Overview
+The dataset used to train the recommendation engine consists of user listening histories, song features, and metadata such as genre, artist, and album information.
+
+### Data Preprocessing:
+- **Feature Extraction**: Extracted key features like song genre, tempo, and user listening patterns to build the recommendation model.
+- **Handling Missing Data**: Missing values in the dataset were handled by using appropriate imputation techniques to ensure a clean dataset for training.
+- **Train-Test Split**: The dataset was split into training and testing sets for evaluation.
+
+### Key Features
+1. **Personalized Music Recommendations**:
+   - Recommends songs that align with a user's past preferences, making music exploration more enjoyable.
+   
+2. **Random Forest-Based Predictions**:
+   - The model delivers robust recommendations by using an ensemble of decision trees, each considering various user and song features.
+
+3. **Model Performance**:
+   - Evaluated based on accuracy and precision, the model demonstrated strong performance in recommending relevant songs to users.
+
+### Conclusion
+The **Music Recommendation System** demonstrates how machine learning can be applied to provide personalized music experiences. By utilizing a **Random Forest** algorithm, the system effectively analyzes user preferences and delivers relevant song recommendations. Future improvements could involve incorporating more advanced models or expanding the dataset for even better predictions.
+
+---
+
+## 13. Handwritten Numbers Detection
+
+### Project Overview
+The **Handwritten Numbers Detection** project is designed to classify digits (0-9) from images of handwritten numbers using the **MNIST** dataset. This project utilizes **Convolutional Neural Networks (CNNs)** to effectively recognize and classify digits from the widely-used MNIST dataset, which consists of 60,000 training images and 10,000 test images. 
+
+The goal of the project is to create a robust model that can accurately detect and classify handwritten digits, making it applicable to various fields such as automated check processing, postal code recognition, and more.
+
+### Key Achievements:
+- **High Accuracy in Handwritten Digit Recognition**: The model achieves high accuracy in classifying handwritten digits from the MNIST dataset.
+- **Efficient Deep Learning Model**: Leveraging CNNs allowed for improved accuracy and performance in image classification tasks.
+
+### Technologies Used
+- **Deep Learning**:
+  - **Convolutional Neural Networks (CNNs)** were used to detect and classify handwritten digits, offering powerful image recognition capabilities.
+  
+- **Python Libraries**:
+  - **TensorFlow** and **Keras** for building and training the deep learning model.
+  - **NumPy** and **Matplotlib** for data manipulation and visualization.
+
+### Dataset Overview
+The MNIST dataset consists of grayscale images of handwritten digits. Each image is 28x28 pixels and is labeled with the correct digit (0-9).
+
+- **Training Data**: 60,000 images of handwritten digits.
+- **Test Data**: 10,000 images used for evaluating model performance.
+
+### Data Preprocessing:
+- **Normalization**: The pixel values of images were scaled between 0 and 1 to improve model training.
+- **Reshaping**: The images were reshaped into the required format for the CNN.
+- **One-Hot Encoding**: The labels were one-hot encoded to match the categorical format required by the model.
+
+### Key Features
+1. **Handwritten Digit Classification**:
+   - The model classifies digits (0-9) from handwritten images, providing an accurate identification of each digit.
+   
+2. **CNN-Based Model**:
+   - The use of **Convolutional Neural Networks (CNNs)** ensures the model efficiently learns important features from the images and generalizes well to new data.
+
+3. **Model Performance**:
+   - The model was evaluated on the test set and demonstrated strong accuracy in classifying digits, making it suitable for real-world applications.
+
+### Conclusion
+The **Handwritten Numbers Detection** project highlights the potential of deep learning for image recognition tasks. By employing CNNs on the MNIST dataset, the project achieved high accuracy in detecting handwritten digits, showcasing the effectiveness of deep learning models for classification tasks. Future work may involve experimenting with more complex architectures or deploying the model in real-world scenarios such as automated handwriting recognition systems.
+
+---
+
+## 14. House Price Prediction
+
+### Project Overview
+The **House Price Prediction** project aims to predict house prices based on various features of properties in the USA. By utilizing **Linear Regression**, the model estimates housing prices based on a dataset of 5,000 houses. This project demonstrates the application of machine learning to real estate, providing valuable insights for buyers, sellers, and real estate agencies.
+
+### Key Achievements:
+- **Accurate Price Prediction**: The model successfully predicts housing prices based on input features, providing valuable insights into price trends.
+- **Effective Use of Linear Regression**: The project leverages the simplicity and effectiveness of **Linear Regression** for predicting continuous values.
+
+### Technologies Used
+- **Machine Learning**:
+  - The project uses **Linear Regression** as the predictive model to estimate house prices.
+  
+- **Python Libraries**:
+  - **Scikit-learn** for implementing Linear Regression and splitting the dataset.
+  - **Pandas** for data manipulation and preprocessing.
+  - **Matplotlib** and **Seaborn** for data visualization.
+
+### Dataset Overview
+The dataset consists of 5,000 entries with several features related to the houses, including average area income, house age, number of rooms, number of bedrooms, area population, and the target variable, which is the price.
+
+### Exploratory Data Analysis (EDA)
+Through EDA, I gained a comprehensive understanding of the data, identifying trends, distributions, and relationships among the features. This analysis helped inform feature selection and the overall modeling approach.
+
+### Data Preprocessing:
+- **Feature Selection**: The model uses various features to predict the price of the houses.
+  
+- **Data Normalization**: All numerical features were normalized to ensure the model performs optimally.
+
+- **Train-Test Split**: The dataset was split into training and testing sets to evaluate the model's performance.
+
+### Key Features
+1. **Linear Regression-Based Prediction**:
+   - The model uses **Linear Regression** to predict house prices based on multiple features.
+   
+2. **Feature Importance**:
+   - Important features include **Avg. Area Income**, **Avg. Area Number of Rooms**, and **Area Population**, which significantly influence price predictions.
+
+3. **Model Evaluation**:
+   - The model was evaluated using metrics such as **Mean Squared Error (MSE)** and **R-squared**, providing insights into the model's accuracy and performance.
+
+### Conclusion
+The **House Price Prediction** project demonstrates the use of machine learning, particularly **Linear Regression**, for predicting housing prices based on several key features. By analyzing and training on data related to income, house age, number of rooms, and population, the model provides accurate price predictions. This project can be further extended by incorporating additional features or experimenting with more complex models like **Decision Trees** or **Random Forest** to enhance accuracy.
+
+
+---
+
+## 15. Diabetes Prediction
+
+### Project Overview
+The **Diabetes Prediction** project aims to predict the likelihood of diabetes in patients based on various health-related features. Using a dataset from the **Pima Indians Diabetes Database**, this project employs machine learning techniques to develop a predictive model that can assist healthcare professionals in early diagnosis and intervention.
+
+### Key Achievements:
+- **Effective Diabetes Prediction**: The model accurately predicts the presence of diabetes, contributing to early diagnosis and treatment.
+- **Use of Support Vector Classifier (SVC)**: The project focuses on implementing the SVC algorithm to achieve high predictive accuracy.
+
+### Technologies Used
+- **Machine Learning**:
+  - The project implements the **Support Vector Classifier (SVC)** algorithm for diabetes prediction.
+
+- **Python Libraries**:
+  - **Scikit-learn** for model implementation and evaluation.
+  - **Pandas** for data manipulation and preprocessing.
+  - **NumPy** for numerical operations.
+  - **Matplotlib** and **Seaborn** for data visualization.
+
+### Dataset Overview
+The dataset consists of several health-related features that may indicate the likelihood of diabetes. Key features include:
+- **Pregnancies**: Number of times pregnant.
+- **Glucose**: Plasma glucose concentration a two-hour in an oral glucose tolerance test.
+- **Blood Pressure**: Diastolic blood pressure (mm Hg).
+- **Skin Thickness**: Triceps skin fold thickness (mm).
+- **Insulin**: 2-Hour serum insulin (mu U/ml).
+- **BMI**: Body mass index (weight in kg/(height in m)^2).
+- **Diabetes Pedigree Function**: A function that scores the likelihood of diabetes based on family history.
+- **Age**: Age (years).
+- **Outcome**: Class variable (0 or 1) indicating the presence of diabetes.
+
+### Exploratory Data Analysis (EDA)
+Through EDA, I gained insights into the relationships among features and their correlation with the outcome variable. This analysis helped in understanding the data distribution and identifying potential patterns indicative of diabetes.
+
+### Data Preprocessing:
+- **Data Cleaning**: Handled missing values and outliers to improve dataset quality.
+- **Feature Scaling**: Normalized continuous features to ensure the model's efficiency.
+- **Train-Test Split**: Divided the dataset into training and testing sets for model evaluation.
+
+### Key Features
+1. **Support Vector Classifier (SVC)**:
+   - Employed the SVC algorithm for its effectiveness in handling high-dimensional spaces, making it suitable for this prediction task.
+
+2. **Model Performance Metrics**:
+   - The model was assessed using metrics such as **accuracy**, **precision**, **recall**, and **F1-score** to ensure reliability in predictions.
+
+3. **Feature Importance Analysis**:
+   - Identified which features contribute most significantly to the model's predictions, providing insights into the risk factors for diabetes.
+
+### Conclusion
+The **Diabetes Prediction** project showcases the power of machine learning in the healthcare domain, allowing for early detection and intervention strategies. By leveraging the Support Vector Classifier (SVC), this project not only aids in predicting diabetes but also offers valuable insights into the key factors influencing the disease. Future enhancements could involve using ensemble methods or exploring additional machine learning techniques to further improve prediction accuracy.
+
+---
+## 16. Breast Cancer Prediction using Neural Networks
+
+### Project Overview
+The **Breast Cancer Prediction** project aims to accurately classify breast cancer tumors as malignant or benign using a straightforward neural network model. This project utilizes deep learning techniques to provide an efficient approach for early diagnosis, which is crucial for improving patient outcomes.
+
+### Key Achievements:
+- **High Classification Accuracy**: The neural network model effectively distinguishes between malignant and benign tumors, aiding in timely clinical decisions.
+- **User-Friendly Model**: The simplicity of the model allows for easier understanding and implementation, making it accessible for educational purposes.
+
+### Technologies Used
+- **Neural Networks**:
+  - A simple feedforward neural network architecture was employed to learn from the dataset.
+
+- **Python Libraries**:
+  - **TensorFlow** and **Keras** for building and training the neural network model.
+  - **Pandas** for data manipulation and preprocessing.
+  - **NumPy** for numerical operations.
+  - **Matplotlib** and **Seaborn** for data visualization.
+
+### Dataset Overview
+The dataset used for this project consists of medical records that describe various tumor characteristics, including:
+- **Radius Mean**
+- **Texture Mean**
+- **Perimeter Mean**
+- **Area Mean**
+- **Smoothness Mean**
+- **Compactness Mean**
+- **Concavity Mean**
+- **Concave Points Mean**
+- **Symmetry Mean**
+- **Fractal Dimension Mean**
+- **Diagnosis**: Class variable (M = malignant, B = benign).
+
+### Exploratory Data Analysis (EDA)
+Through EDA, insights were gained into the relationships among features and their correlation with tumor diagnosis. This analysis helped in understanding the data distribution and identifying patterns indicating malignancy.
+
+### Data Preprocessing:
+- **Data Cleaning**: Handled missing values and outliers to improve dataset quality.
+- **Feature Scaling**: Applied normalization to ensure features are on a similar scale, enhancing model performance.
+- **Train-Test Split**: Divided the dataset into training and testing sets for comprehensive model evaluation.
+
+
+### Key Features
+1. **Neural Network Model**:
+   - A simple yet effective architecture for classifying breast cancer cases based on medical attributes.
+
+2. **Model Performance Metrics**:
+   - Assessed the model's performance using metrics such as accuracy, precision, recall, and F1-score to ensure reliable classifications.
+
+3. **Interpretability**:
+   - Analyzed the model's predictions to understand the influence of different features on the classification outcomes.
+
+### Conclusion
+The **Breast Cancer Classification** project demonstrates the potential of neural networks in accurately predicting breast cancer diagnoses based on medical features. This project contributes to the development of tools that can assist healthcare professionals in making informed decisions regarding patient care and treatment.
+
+---
+
+## 17. Car Price Prediction
+
+### Project Overview
+The **Car Price Prediction** project aims to estimate the prices of used cars based on various attributes such as the year of manufacture, mileage, engine size, horsepower, and the number of doors. By utilizing a linear regression model, this project provides insights into how these features affect car pricing.
+
+### Key Achievements
+- **Accurate Price Predictions**: Successfully implemented a linear regression model that predicts car prices with a high degree of accuracy.
+- **Feature Analysis**: Gained insights into the importance of different features in determining car prices.
+
+### Technologies Used
+- **Machine Learning**:
+  - Utilized **Linear Regression** for predictive modeling.
+- **Python Libraries**:
+  - **Pandas** for data manipulation and analysis.
+  - **Scikit-learn** for implementing the machine learning model.
+
+### Dataset Overview
+The dataset used for this project consists of several key attributes related to used cars, including:
+- **Year**: The year of manufacture.
+- **Mileage**: The distance the car has traveled.
+- **Engine Size**: The size of the car's engine.
+- **Horsepower**: The power of the engine.
+- **Number of Doors**: The number of doors the car has.
+- **Price**: The target variable representing the car's price.
+
+### Data Exploration and Analysis
+Through **Exploratory Data Analysis (EDA)**, I gained a deeper understanding of the dataset. This involved visualizing the relationships between features and the target variable, identifying patterns, and uncovering insights that informed the model-building process.
+
+### Model Implementation
+The linear regression model was developed to predict car prices based on the selected features. The model was trained using a dataset that includes key attributes such as the year of manufacture, mileage, engine size, horsepower, and the number of doors.
+
+### Key Features
+1. **Linear Regression Model**:
+   - A straightforward approach for predicting car prices based on the linear relationship between features and the target variable.
+
+2. **Model Performance Metrics**:
+   - Evaluated the model's performance using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared to assess prediction accuracy.
+
+3. **Feature Importance**:
+   - Analyzed the coefficients of the linear regression model to understand the impact of each feature on car pricing.
+
+### Conclusion
+The **Car Price Prediction** project demonstrates the effectiveness of linear regression in predicting used car prices based on various features. The insights gained through this project can assist buyers and sellers in making informed decisions in the used car market.
+
+---
+
+## 18. IPL Prediction
+
+### Project Overview
+The **IPL Prediction** project focuses on predicting the outcomes of Indian Premier League (IPL) matches using logistic regression. By analyzing various match-related features, this project aims to provide insights into the factors that influence the outcome of IPL games.
+
+### Key Achievements
+- **Predictive Insights**: Developed a logistic regression model that accurately predicts match outcomes based on historical data.
+- **Data-Driven Decision Making**: Provided a statistical basis for understanding how different factors impact match results.
+
+### Technologies Used
+- **Machine Learning**:
+  - Employed **Logistic Regression** for binary classification tasks.
+- **Python Libraries**:
+  - **Scikit-learn** for implementing the logistic regression model.
+  - **Pandas** for data manipulation and analysis.
+
+### Data Exploration and Analysis
+Through **Exploratory Data Analysis (EDA)**, I gained insights into the dataset, which included visualizing the relationships between match features and outcomes. This analysis helped identify key patterns that influence match results and informed model development.
+
+### Model Implementation
+The logistic regression model was implemented using Scikit-learn and trained on the IPL dataset to predict match outcomes.
+
+### Key Features
+1. **Logistic Regression Model**:
+   - Utilized logistic regression to model the binary outcomes of matches effectively.
+
+2. **Model Performance Metrics**:
+   - Evaluated the model's performance using accuracy, precision, recall, and F1-score to ensure reliable predictions.
+
+3. **Insights from Predictions**:
+   - The model provides valuable insights into match dynamics, helping teams and analysts understand potential match outcomes.
+
+### Conclusion
+The **IPL Prediction** project demonstrates the effectiveness of logistic regression in predicting match outcomes based on various historical features. The insights gained through this project can assist teams and analysts in making informed decisions during the IPL season.
+
+---
+
+## 19. Iris Flower Classification
+
+### Project Overview
+The **Iris Flower Classification** project focuses on classifying different species of iris flowers based on their physical attributes using logistic regression. This classic machine learning problem showcases the power of classification algorithms in distinguishing between categories based on input features.
+
+### Key Achievements
+- **Accurate Classification**: Developed a logistic regression model that effectively classifies iris species based on their measurements.
+- **Foundational Machine Learning**: Demonstrated a fundamental application of machine learning concepts through a well-known dataset.
+
+### Technologies Used
+- **Machine Learning**:
+  - Employed **Logistic Regression** for multi-class classification tasks.
+- **Python Libraries**:
+  - **Scikit-learn** for implementing the logistic regression model.
+  - **Pandas** for data manipulation and analysis.
+  - **Matplotlib** and **Seaborn** for data visualization.
+
+### Data Exploration and Analysis
+Through **Exploratory Data Analysis (EDA)**, I gained insights into the dataset, which included visualizing the relationships between different iris species and their features. This analysis helped in understanding the distributions and correlations within the data, informing the model selection process.
+
+### Model Implementation
+The logistic regression model was implemented using Scikit-learn, trained on the Iris dataset to classify flowers into three species based on their measurements.
+
+### Key Features
+1. **Logistic Regression Model**:
+   - Utilized logistic regression to effectively model the multi-class classification of iris species.
+
+2. **Model Performance Metrics**:
+   - Evaluated the model's performance using accuracy, confusion matrix, and classification report to ensure reliable predictions.
+
+3. **Visualizations**:
+   - Created visualizations to demonstrate the decision boundaries and classification performance of the model.
+
+### Conclusion
+The **Iris Flower Classification** project illustrates the application of logistic regression in classifying flower species based on physical attributes. The insights gained through this project contribute to understanding classification techniques and their practical applications in machine learning.
 
 
 **Contact Me**:  
