@@ -88,7 +88,9 @@ The project incorporates both content-based and collaborative filtering approach
 
 This Movie Recommendation System provides a user-friendly platform for personalized movie suggestions, leveraging advanced machine learning and NLP techniques. The integration of **YouTube trailers** adds an engaging touch, making it easier for users to decide what to watch. This project showcases my ability to combine data science, web technologies, and APIs to build a practical, real-world application.
 
-<a href="https://github.com/Karanraj-6/Movie-Recommendation-System">View Project</a>
+<a href="https://github.com/Karanraj-6/Movie_recommendation_system">View Project code</a>
+
+<a href="https://mrs-deploy-v2-karan.streamlit.app/">Live website</a>
 
 ---
 
@@ -202,7 +204,14 @@ The dataset used in this project is the **IBM Telco Customer Churn** dataset, co
 ### Conclusion
 
  - The **Customer Churn Prediction System** offers a reliable solution for predicting customer churn and storing real-time data into a database. With its user-friendly interface, robust prediction capabilities, and data storage features, it provides businesses with the tools they need to identify and retain at-risk customers effectively.
+
+ 
+<a href="https://github.com/Karanraj-6/Customer_churn_prediction">View Project code</a>
+
+<a href="https://customerchurndeploy-karanraj-6.onrender.com/">Live website</a>
+
 ---
+
 ## 3.Fake News Detection System
 
 ### Project Overview
@@ -292,69 +301,13 @@ This level of performance demonstrates that the system is highly effective in de
 
 The **Fake News Detection System** provides a highly accurate solution for identifying fake news articles. With its real-time prediction capabilities, robust NLP processing, and easy-to-use web interface, the system is a valuable tool for combating misinformation in today's digital age.
 
----
 
-## 5. YouTube AdView Prediction System
+<a href="https://github.com/Karanraj-6/Fake_news_detection">View Project code</a>
 
-### Project Overview
-The **YouTube AdView Prediction System** aims to predict the number of ad views a YouTube video is likely to generate. This project utilizes machine learning techniques to help content creators, marketers, and advertisers estimate potential ad revenues based on various video attributes.
-
-The model leverages historical data, including features such as video duration, category, publishing date, and engagement metrics (likes, dislikes, comments, etc.), to provide accurate predictions. This project was developed using a **semi-large dataset** with over **15,000 entries** in the training set, ensuring a robust foundation for generating reliable predictions.
-
-#### Key Achievements:
-- **Accurate AdView Predictions** for YouTube videos based on comprehensive metadata.
-- The model enables content creators and advertisers to estimate potential earnings from YouTube ads more effectively.
-- Enhanced decision-making for video publishing strategies based on predicted ad views.
-
-### Technologies Used
-- **Machine Learning**:
-  - Various regression algorithms were explored for this project, including **Linear Regression**, **Decision Tree Regressor**, **Random Forest Regressor**, and **XGBoost**.
-  - After extensive experimentation and hyperparameter tuning, **XGBoost** was chosen as the final model due to its superior performance.
-
-### Dataset Overview
-The dataset used in this project contains detailed information on YouTube videos, including:
-- `video_id`: A unique identifier for each video.
-- `video_title`: The title of the video.
-- `category`: The category under which the video is listed on YouTube.
-- `duration`: The length of the video in seconds.
-- `likes`: The number of likes the video has received.
-- `dislikes`: The number of dislikes the video has received.
-- `comments`: The number of comments the video has received.
-- `published_at`: The date and time when the video was published.
-- `ad_views`: The target variable, representing the number of ad views the video has generated.
-
-### Data Preprocessing
-Before training the machine learning model, extensive data preprocessing was carried out:
-- **Handling Missing Data**: Missing values were imputed using appropriate strategies, such as mean, median, or mode, depending on the feature.
-- **Feature Engineering**: New features like the video’s publishing day of the week and whether the video was published on a weekend were created to capture potential correlations with ad views.
-- **Encoding Categorical Variables**: Features like `category` were encoded using techniques like **One-Hot Encoding** to convert them into numerical representations.
-- **Scaling**: Features such as `likes`, `dislikes`, and `comments` were scaled using **Standardization** to ensure that all features contribute equally to the model’s performance.
-
-### Key Features
-
-1. **Accurate AdView Predictions**:
-   - The model predicts the expected number of ad views a video will generate, providing insights for creators and advertisers to assess potential ad revenue.
-
-2. **Multiple Machine Learning Models**:
-   - Several regression algorithms were tested, including **Linear Regression**, **Decision Tree Regressor**, **Random Forest Regressor**, and **XGBoost**. **XGBoost** was selected due to its higher accuracy and robustness.
-   
-3. **Hyperparameter Tuning**:
-   - **Grid Search** and **Random Search** techniques were utilized to find the optimal hyperparameters for the XGBoost model, improving prediction accuracy.
-
-4. **Model Performance**:
-   - The model demonstrated high predictive accuracy on the test set, with metrics such as **Mean Absolute Error (MAE)** and **Root Mean Squared Error (RMSE)** indicating strong performance.
-   
-5. **Scalability**:
-   - The system can handle a large volume of video data, making it scalable for use with hundreds or thousands of video entries.
-
-### Conclusion
-The **YouTube AdView Prediction System** serves as a valuable tool for understanding and predicting ad view performance, assisting content creators and marketers in making data-driven decisions for their video content.
-
-<a href="https://github.com/Karanraj-6/YouTube-AdView-Prediction">View Project</a>
 
 ---
 
-## 6. Facial Expression Recognition System
+## 5. Facial Expression Recognition System
 
 ### Project Overview
 The **Facial Expression Recognition System** is designed to detect and interpret human emotions based on facial expressions using advanced machine learning techniques. This project aims to classify emotions such as happiness, sadness, anger, surprise, disgust, and fear by analyzing facial images.
@@ -399,12 +352,16 @@ Before training the machine learning model, several preprocessing steps were per
 3. **Data Augmentation**:
    - Techniques such as rotation, flipping, and scaling were applied to the training dataset to increase its diversity and improve the model's robustness.
 
+
 ### Conclusion
 The **Facial Expression Recognition System** demonstrates the potential of machine learning in interpreting human emotions through facial cues. Its versatility opens doors for applications in mental health monitoring, interactive experiences, and consumer behavior analysis, making it a valuable tool in today's technology-driven world.
 
+<a href="https://github.com/Karanraj-6/LGM/blob/main/(MORE%20AL)TASK_1_Facial_Expressions_Recognition(MAL).ipynb">View Project code</a>
+
+
 ---
 
-## 7. Handwritten Equation Solver
+## 6. Handwritten Equation Solver
 
 ### Project Overview
 The **Handwritten Equation Solver** is designed to recognize and solve handwritten mathematical equations using advanced deep learning techniques. This project focuses on transforming images of handwritten equations into machine-readable formats, enabling automated solving and interpretation of mathematical expressions.
@@ -450,11 +407,11 @@ Before training the machine learning model, several preprocessing steps were per
 ### Conclusion
 The **Handwritten Equation Solver** showcases the potential of deep learning in automating the process of recognizing and solving mathematical expressions. This project not only simplifies the learning experience for students but also provides educators with a tool to facilitate understanding of mathematical concepts through technology.
 
-<a href="https://github.com/Karanraj-6/Handwritten-Equation-Solver">View Project</a>
+<a href="https://github.com/Karanraj-6/LGM/blob/main/(ADVANCED_LEVEL)TASK3_Handwritten_Equation_Solvers%20(1).ipynb">View Project</a>
 
 ---
 
-## 8. Stock Price Prediction
+## 7. Stock Price Prediction
 
 ### Project Overview
 The **Stock Price Prediction** project utilizes advanced machine learning techniques to forecast future stock prices based on historical data. By analyzing patterns in stock market trends, the model provides insights that can aid investors in making informed decisions. 
@@ -499,10 +456,12 @@ Before training the LSTM model, several preprocessing steps were undertaken:
 ### Conclusion
 The **Stock Price Prediction** project demonstrates the application of deep learning in financial forecasting. By leveraging historical data and sophisticated modeling techniques, this project provides a valuable tool for investors looking to make informed decisions based on predictive analytics. The visualizations and model performance metrics further enhance its usability and effectiveness in the financial domain.
 
+<a href="https://github.com/Karanraj-6/LGM/blob/main/(BEGINNER_LEVEL)TASK_2-STOCK_PREDICTION_LSTM.ipynb">View Project code</a>
+
 
 ---
 
-## 9. Next Word Predictor
+## 8. Next Word Predictor
 
 ### Project Overview
 The **Next Word Predictor** project is designed to predict the next word in a sequence of text using advanced natural language processing (NLP) techniques. This project leverages deep learning to understand language context and improve the accuracy of word predictions, making it applicable for various NLP tasks, including text completion and conversational AI.
@@ -544,8 +503,11 @@ Before training the model, several preprocessing steps were performed:
 
 ### Conclusion
  - The **Next Word Predictor** project illustrates the potential of deep learning in advancing natural language processing capabilities. By predicting the next word in a sequence, this project contributes to the development of more intelligent and context-aware language models. Future work may involve expanding the dataset, fine-tuning the model for improved accuracy, and exploring additional NLP applications.
+
+ <a href="https://github.com/Karanraj-6/LGM/blob/main/(BEGINNER_LEVEL)TASK_2-STOCK_PREDICTION_LSTM.ipynb">View Project code</a>
+
 ---
-## 10. Cats vs. Dogs Classifier
+## 9. Cats vs. Dogs Classifier
 
 ### Project Overview
 
@@ -588,9 +550,14 @@ Before training the model, several preprocessing steps were performed:
 
 The **Cats vs. Dogs Classifier** project showcases the power of deep learning in image recognition. By effectively distinguishing between cat and dog images, this project serves as a practical application of convolutional neural networks. Future work may involve expanding the dataset, improving model architecture, and exploring additional image classification tasks.
 
+
+<a href="https://github.com/Karanraj-6/Deep_Learning/blob/main/CNN_cats_vs_dogs.ipynb">View Project code</a>
+
+<a href="https://catsvsdogsdeployv2.streamlit.app/">Live website</a>
+
 ---
 
-## 11. Sentiment Analysis System
+## 10. Sentiment Analysis System
 
 ### Project Overview
 The **Sentiment Analysis System** is designed to classify the sentiment of text data, particularly focusing on movie reviews from the **IMDb dataset**. Using **BERT (Bidirectional Encoder Representations from Transformers)** and **PyTorch**, this system can accurately categorize reviews as positive, negative, or neutral based on the context and meaning of the text.
@@ -649,9 +616,14 @@ The model was trained on the **IMDb movie reviews dataset**, which consists of t
 ### Conclusion
 The **Sentiment Analysis System** fine-tuned on the IMDb dataset showcases the effectiveness of using BERT with PyTorch for sentiment classification. The integration with Streamlit further enhances the project by offering a real-time, user-friendly interface. This project highlights the potential of deep learning models in accurately understanding and interpreting sentiment in large, real-world datasets. Future improvements could include extending the model to support more granular sentiment categories or adapting it for multilingual sentiment analysis.
 
+
+<a href="https://github.com/Karanraj-6/BERT_sentiment_analysis_code">View Project code</a>
+
+<a href="https://sentimentanalysisdeployv2-karan.streamlit.app/">Live website</a>
+
 ---
 
-## 12. Music Recommendation System
+## 11. Music Recommendation System
 
 ### Project Overview
 The **Music Recommendation System** is designed to suggest songs based on a user’s listening habits and preferences. This system employs a **Random Forest** machine learning model to analyze user interactions with music and provide personalized recommendations. 
@@ -662,7 +634,7 @@ The recommendation engine works by analyzing user behavior, including listening 
 - **Accurate Music Recommendations**: The system delivers personalized song suggestions based on user behavior and listening history.
 - **Random Forest Model**: The use of a Random Forest algorithm helps improve the precision of recommendations by analyzing multiple features of user preferences.
 
-## Technologies Used
+### Technologies Used
 - **Machine Learning**:
   - **Random Forest Algorithm**: The model was built using the Random Forest technique, which improves prediction accuracy by considering multiple decision trees.
   
@@ -691,54 +663,89 @@ The dataset used to train the recommendation engine consists of user listening h
 ### Conclusion
 The **Music Recommendation System** demonstrates how machine learning can be applied to provide personalized music experiences. By utilizing a **Random Forest** algorithm, the system effectively analyzes user preferences and delivers relevant song recommendations. Future improvements could involve incorporating more advanced models or expanding the dataset for even better predictions.
 
+
+<a href="https://github.com/Karanraj-6/LGM/blob/main/(BEGINNER_LEVEL)TASK_3-MUSIC_RECOMMENDATION_SYSTEM.ipynb">View Project code</a>
+
+
 ---
 
-## 13. Handwritten Numbers Detection
+## 12. Handwritten Numbers Detection Projects
 
-### Project Overview
-The **Handwritten Numbers Detection** project is designed to classify digits (0-9) from images of handwritten numbers using the **MNIST** dataset. This project utilizes **Convolutional Neural Networks (CNNs)** to effectively recognize and classify digits from the widely-used MNIST dataset, which consists of 60,000 training images and 10,000 test images. 
+### *Project 1: Handwritten Digit Detection using MNIST Dataset*
 
-The goal of the project is to create a robust model that can accurately detect and classify handwritten digits, making it applicable to various fields such as automated check processing, postal code recognition, and more.
+### Overview
+The **Handwritten Digit Detection** project aims to classify handwritten digits (0-9) using the **MNIST dataset**. This project employs **Artificial Neural Networks (ANNs)** to recognize and classify digits effectively.
 
-### Key Achievements:
-- **High Accuracy in Handwritten Digit Recognition**: The model achieves high accuracy in classifying handwritten digits from the MNIST dataset.
-- **Efficient Deep Learning Model**: Leveraging CNNs allowed for improved accuracy and performance in image classification tasks.
+### Key Achievements
+- **High Accuracy**: The ANN model demonstrates a high level of accuracy in classifying digits from the MNIST dataset.
+- **Simplicity and Effectiveness**: Leveraging an ANN provides a straightforward yet effective approach for handwritten digit recognition.
 
 ### Technologies Used
 - **Deep Learning**:
-  - **Convolutional Neural Networks (CNNs)** were used to detect and classify handwritten digits, offering powerful image recognition capabilities.
+  - **Artificial Neural Networks (ANNs)** for digit classification.
   
 - **Python Libraries**:
-  - **TensorFlow** and **Keras** for building and training the deep learning model.
+  - **TensorFlow** and **Keras** for model building and training.
   - **NumPy** and **Matplotlib** for data manipulation and visualization.
 
 ### Dataset Overview
-The MNIST dataset consists of grayscale images of handwritten digits. Each image is 28x28 pixels and is labeled with the correct digit (0-9).
-
+The MNIST dataset consists of:
 - **Training Data**: 60,000 images of handwritten digits.
-- **Test Data**: 10,000 images used for evaluating model performance.
+- **Test Data**: 10,000 images for model evaluation.
 
-### Data Preprocessing:
-- **Normalization**: The pixel values of images were scaled between 0 and 1 to improve model training.
-- **Reshaping**: The images were reshaped into the required format for the CNN.
-- **One-Hot Encoding**: The labels were one-hot encoded to match the categorical format required by the model.
+### Data Preprocessing
+- **Normalization**: Pixel values scaled between 0 and 1.
+- **Reshaping**: Images reshaped into the required format for the ANN.
+- **One-Hot Encoding**: Labels converted to a categorical format.
 
 ### Key Features
-1. **Handwritten Digit Classification**:
-   - The model classifies digits (0-9) from handwritten images, providing an accurate identification of each digit.
-   
-2. **CNN-Based Model**:
-   - The use of **Convolutional Neural Networks (CNNs)** ensures the model efficiently learns important features from the images and generalizes well to new data.
+1. **Digit Classification**: The model accurately classifies digits (0-9) from the MNIST dataset.
+2. **Model Performance**: Evaluated on the test set, the ANN achieved strong classification accuracy.
 
-3. **Model Performance**:
-   - The model was evaluated on the test set and demonstrated strong accuracy in classifying digits, making it suitable for real-world applications.
+
+<a href="https://github.com/Karanraj-6/Deep_Learning/blob/main/1_ANN_Intro/MNIST(Multi_class).ipynb">View Project code</a>
+
+
+### *Project 2: Handwritten Digit Detection using Pixel Dataset with CNN*
+
+### Overview
+The **Handwritten Digit Detection** project utilizes a dataset consisting of pixel values for handwritten digits. This project leverages **Convolutional Neural Networks (CNNs)** to classify digits based on the pixel data effectively.
+
+### Key Achievements
+- **Enhanced Accuracy**: The CNN model significantly improves recognition performance compared to traditional approaches.
+- **Powerful Feature Learning**: The architecture allows for robust learning of important features in the pixel data.
+
+### Technologies Used
+- **Deep Learning**:
+  - **Convolutional Neural Networks (CNNs)** for effective image classification.
+  
+- **Python Libraries**:
+  - **TensorFlow** and **Keras** for building and training the model.
+  - **NumPy** and **Matplotlib** for data manipulation and visualization.
+
+### Dataset Overview
+The pixel dataset includes:
+- **Labels**: Each entry corresponds to a digit (0-9).
+- **Pixel Data**: Each image represented by pixel values (e.g., pixel0 to pixel783), where each pixel corresponds to grayscale intensity.
+
+### Data Preprocessing
+- **Normalization**: Pixel values scaled between 0 and 1.
+- **Reshaping**: Ensured proper input shape for the CNN.
+- **One-Hot Encoding**: Converted labels to a categorical format.
+
+### Key Features
+1. **Digit Classification**: The CNN model accurately classifies digits based on pixel input.
+2. **Advanced CNN Architecture**: Efficiently learns and generalizes from pixel data, leading to improved accuracy.
 
 ### Conclusion
-The **Handwritten Numbers Detection** project highlights the potential of deep learning for image recognition tasks. By employing CNNs on the MNIST dataset, the project achieved high accuracy in detecting handwritten digits, showcasing the effectiveness of deep learning models for classification tasks. Future work may involve experimenting with more complex architectures or deploying the model in real-world scenarios such as automated handwriting recognition systems.
+Both **Handwritten Digit Detection** projects showcase the effectiveness of deep learning in classifying handwritten digits. The first project, using an ANN on the MNIST dataset, provides a solid foundation in digit recognition. The second project, utilizing a CNN on a pixel dataset, demonstrates the power of advanced neural network architectures in achieving higher accuracy and performance. Future work could involve further optimizations, exploring more complex architectures, and applying these models in practical applications, such as automated handwriting recognition systems.
+
+<a href="https://github.com/Karanraj-6/LGM/blob/main/(ADVANCED%20LEVEL)TASK1_HANDWRITING_DETECTION(AL).ipynb">View Project code</a>
+
 
 ---
 
-## 14. House Price Prediction
+## 13. House Price Prediction
 
 ### Project Overview
 The **House Price Prediction** project aims to predict house prices based on various features of properties in the USA. By utilizing **Linear Regression**, the model estimates housing prices based on a dataset of 5,000 houses. This project demonstrates the application of machine learning to real estate, providing valuable insights for buyers, sellers, and real estate agencies.
@@ -782,10 +789,12 @@ Through EDA, I gained a comprehensive understanding of the data, identifying tre
 ### Conclusion
 The **House Price Prediction** project demonstrates the use of machine learning, particularly **Linear Regression**, for predicting housing prices based on several key features. By analyzing and training on data related to income, house age, number of rooms, and population, the model provides accurate price predictions. This project can be further extended by incorporating additional features or experimenting with more complex models like **Decision Trees** or **Random Forest** to enhance accuracy.
 
+<a href="https://github.com/Karanraj-6/CodeClause_internship">View Project code</a>
+
 
 ---
 
-## 15. Diabetes Prediction
+## 14. Diabetes Prediction
 
 ### Project Overview
 The **Diabetes Prediction** project aims to predict the likelihood of diabetes in patients based on various health-related features. Using a dataset from the **Pima Indians Diabetes Database**, this project employs machine learning techniques to develop a predictive model that can assist healthcare professionals in early diagnosis and intervention.
@@ -837,8 +846,11 @@ Through EDA, I gained insights into the relationships among features and their c
 ### Conclusion
 The **Diabetes Prediction** project showcases the power of machine learning in the healthcare domain, allowing for early detection and intervention strategies. By leveraging the Support Vector Classifier (SVC), this project not only aids in predicting diabetes but also offers valuable insights into the key factors influencing the disease. Future enhancements could involve using ensemble methods or exploring additional machine learning techniques to further improve prediction accuracy.
 
+<a href="https://github.com/Karanraj-6/Internpe_Intership/blob/main/Task_1_Diabetes_Prediction.ipynb">View Project code</a>
+
+
 ---
-## 16. Breast Cancer Prediction using Neural Networks
+## 15. Breast Cancer Prediction using Neural Networks
 
 ### Project Overview
 The **Breast Cancer Prediction** project aims to accurately classify breast cancer tumors as malignant or benign using a straightforward neural network model. This project utilizes deep learning techniques to provide an efficient approach for early diagnosis, which is crucial for improving patient outcomes.
@@ -893,9 +905,12 @@ Through EDA, insights were gained into the relationships among features and thei
 ### Conclusion
 The **Breast Cancer Classification** project demonstrates the potential of neural networks in accurately predicting breast cancer diagnoses based on medical features. This project contributes to the development of tools that can assist healthcare professionals in making informed decisions regarding patient care and treatment.
 
+<a href="https://github.com/Karanraj-6/Internpe_Intership/blob/main/Task_4_Breast_Cancer_Classification_with_NN.ipynb">View Project code</a>
+
+
 ---
 
-## 17. Car Price Prediction
+## 16. Car Price Prediction
 
 ### Project Overview
 The **Car Price Prediction** project aims to estimate the prices of used cars based on various attributes such as the year of manufacture, mileage, engine size, horsepower, and the number of doors. By utilizing a linear regression model, this project provides insights into how these features affect car pricing.
@@ -939,9 +954,12 @@ The linear regression model was developed to predict car prices based on the sel
 ### Conclusion
 The **Car Price Prediction** project demonstrates the effectiveness of linear regression in predicting used car prices based on various features. The insights gained through this project can assist buyers and sellers in making informed decisions in the used car market.
 
+<a href="https://github.com/Karanraj-6/Internpe_Intership/blob/main/Task_2_Car_Price_Prediction.ipynb">View Project code</a>
+
+
 ---
 
-## 18. IPL Prediction
+## 17. IPL Prediction
 
 ### Project Overview
 The **IPL Prediction** project focuses on predicting the outcomes of Indian Premier League (IPL) matches using logistic regression. By analyzing various match-related features, this project aims to provide insights into the factors that influence the outcome of IPL games.
@@ -976,9 +994,12 @@ The logistic regression model was implemented using Scikit-learn and trained on 
 ### Conclusion
 The **IPL Prediction** project demonstrates the effectiveness of logistic regression in predicting match outcomes based on various historical features. The insights gained through this project can assist teams and analysts in making informed decisions during the IPL season.
 
+<a href="https://github.com/Karanraj-6/Internpe_Intership/blob/main/Task_3_IPL_prediction.ipynb">View Project code</a>
+
+
 ---
 
-## 19. Iris Flower Classification
+## 18. Iris Flower Classification
 
 ### Project Overview
 The **Iris Flower Classification** project focuses on classifying different species of iris flowers based on their physical attributes using logistic regression. This classic machine learning problem showcases the power of classification algorithms in distinguishing between categories based on input features.
@@ -1014,6 +1035,69 @@ The logistic regression model was implemented using Scikit-learn, trained on the
 ### Conclusion
 The **Iris Flower Classification** project illustrates the application of logistic regression in classifying flower species based on physical attributes. The insights gained through this project contribute to understanding classification techniques and their practical applications in machine learning.
 
+<a href="https://github.com/Karanraj-6/LGM/blob/main/(BEGINNER_LEVEL)TASK_1-IRIS_FLOWER.ipynb">View Project code</a>
+
+---
+
+
+## 19. Advanced Exploratory Data Analysis (EDA) on Global Terrorism
+
+### Key Insights and Conclusions
+
+1. **Increasing Global Terrorist Incidents**: 
+   - Over the past few decades, there has been a significant rise in the number of terrorist incidents worldwide. This alarming trend underscores the persistent threat of terrorism and emphasizes the necessity for ongoing efforts to combat this issue.
+
+2. **Concentration of Terrorism in Certain Regions**: 
+   - Terrorism is not uniformly distributed across the globe; instead, specific regions, such as the Middle East, South Asia, and North Africa, have seen a higher concentration of terrorist activities. Contributing factors include political instability, ideological conflicts, and socioeconomic grievances prevalent in these areas.
+
+3. **Shifts in Terrorist Tactics**: 
+   - Over time, terrorist organizations have adapted their methods. There has been a noticeable shift from large-scale, coordinated attacks to more decentralized operations involving lone-wolf attackers and small cells. The increased frequency of suicide bombings and vehicle-based attacks is particularly noteworthy.
+
+4. **Impact of Terrorism on Civilian Populations**: 
+   - The repercussions of terrorism are profoundly felt by civilian populations. It results in loss of life, injuries, psychological trauma, and displacement. Moreover, terrorism disrupts economies, infrastructure, and social cohesion in affected regions.
+
+5. **Motivations and Ideologies**: 
+   - A myriad of motivations and ideologies drives terrorism. These include religious extremism, separatism, ethnonationalism, political ideologies, and socio-economic grievances. A thorough understanding of these underlying motivations is essential for devising effective counterterrorism strategies.
+
+6. **Counterterrorism Measures**: 
+   - Governments and international organizations have implemented various counterterrorism strategies to mitigate this threat. Key measures include intelligence sharing, law enforcement cooperation, military operations, counter-radicalization programs, and initiatives aimed at addressing the root causes of terrorism, such as poverty and marginalization.
+
+### Conclusion
+As a security or defense analyst, the insights gathered from the advanced data analytical techniques reveal that the **Middle East and North Africa (MENA)** region is a significant hotspot for terrorist activities, experiencing the highest number of attacks in recent years.
+
+### Final Thoughts
+The findings from this advanced EDA highlight the complex and multifaceted nature of terrorism globally. Continued research, analysis, and collaboration among nations are crucial in developing comprehensive strategies to combat terrorism and its root causes effectively.
+
+<a href="https://github.com/Karanraj-6/LGM/blob/main/(INTERMEDIATE%20LEVEL)TASK-1_TERRORISM.ipynb.ipynb">View Project code</a>
+
+
+---
+
+## 20. Image to Sketch Conversion Project
+
+## Project Overview
+The **Image to Sketch Conversion** project aims to transform images into pencil sketches using computer vision techniques. The project leverages the **OpenCV** library (`cv2`) to perform the necessary image processing tasks.
+
+## Steps Involved
+
+### 1. Converting Image to Grayscale
+The first step involves converting the original image into a grayscale image. This process simplifies the image by reducing the color information, making it easier to work with for further processing.
+
+### 2. Inverting the Grayscale Image
+Once the image is in grayscale, the next step is to invert the grayscale image. This inversion creates a negative effect, which is a crucial part of achieving the pencil sketch look.
+
+### 3. Image Smoothing
+To enhance the quality of the sketch, a smoothing technique is applied to the inverted image. This is typically done using Gaussian blur, which helps to blend the image and prepare it for the final sketch effect.
+
+### 4. Pencil Sketch Effect
+Finally, the pencil sketch effect is created by blending the grayscale image with the smoothed inverted image. This blending process combines the two images to produce the final pencil sketch, resulting in an artistic representation of the original image.
+
+### Conclusion
+The **Image to Sketch Conversion** project effectively showcases the potential of image processing techniques using OpenCV. By following the outlined steps, images can be transformed into artistic pencil sketches, demonstrating the versatility and creativity that computer vision applications can offer. This project has numerous applications in art, design, and digital media, making it an exciting exploration of technology and creativity.
+
+<a href="https://github.com/Karanraj-6/LGM/blob/main/(BEGINNER_LEVEL)TASK_4-IMAGE__to_SKETCH.ipynb">View Project code</a>
+
+---
 
 **Contact Me**:  
 Email: karanraj3056@gmail.com  
